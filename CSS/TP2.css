@@ -1,0 +1,129 @@
+/* Imports de polices de caractère Google */
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+@import url('https://fonts.googleapis.com/css?family=Castoro');
+
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ccffff;
+    margin: auto;
+    background: linear-gradient(to bottom, #0000cc 0%, #00ccff 100%);
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.menuLayout a{
+    min-width: 180px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+    /* top right bottom left*/
+}
+
+/* boutons 3 états à l'aide des sélecteurs :hover et :active */
+.menuLayout a:hover{
+    color: white;
+    background-color: black;
+}
+
+.menuLayout a:active{
+    background-color: gray;
+}
+
+.menuLayout .selected{
+    background-color: lightgray;
+}
+
+.content img{
+    width: 90%;
+    height: 500px;
+    padding-left: 70px;
+    
+}
+
+.content p{
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "Castoro";
+    margin: auto;
+    color: white;
+}
+
+.PhotoProfil{
+    width: 180px;
+    height: 180px;
+    border: 8px solid #1d7995;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+}
+
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .content{
+    position: absolute;
+    height: 80%;
+    margin: auto;
+  }
+  .center{
+    text-align: center;
+    margin: auto 0px;
+    display: block;
+  }
+  .content h2{
+    text-align: justify;
+    font-size: 1.6em;
+    font-family: "Castoro";
+    margin: auto;
+    color: white;
+}
+.imageSecurity{
+    width: 1000px; 
+    height: 545px;
+    text-align: center;
+    margin: auto 0px;
+    display: block;
+    
+}
+
+
+  
+  
+  
+ 
+  
+ 
